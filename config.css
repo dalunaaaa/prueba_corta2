@@ -1,0 +1,21 @@
+.caja {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    height: 100%;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: repeat(4,100% 1fr);
+    
+}
+
+
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: grey;
+}
